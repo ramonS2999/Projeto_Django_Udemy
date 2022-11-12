@@ -1,0 +1,19 @@
+--------------------------------------------------
+
+CREADO A PASTA CONTAS - APP:
+python manage.py startapp contas 
+
+--------------------------------------------------
+
+CREADO O BANCO EM sqlite3:
+python manage.py migrate
+
+--------------------------------------------------
+
+SUPER USER:
+python manage.py createsuperuser 
+	user: admin
+	email: ramonlima426@gmail.com
+	pass: admin
+
+--------------------------------------------------
